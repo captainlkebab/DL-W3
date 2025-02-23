@@ -1,0 +1,28 @@
+analyze_learner_needs:
+  description: |
+    Analyze the learner profile and create a detailed assessment:
+    1. Identify strengths and weaknesses
+    2. Evaluate prior knowledge
+    3. Consider learning goals and preferences
+  agent: theory_expert
+  expected_output: "A detailed analysis of the learner's profile and needs"
+
+create_learning_plan:
+  description: |
+    Create a personalized learning plan based on the learner analysis:
+    1. Select relevant topics
+    2. Define learning objectives and milestones
+    3. Plan interactive exercises
+    4. Consider preferred learning pace
+  agent: theory_expert
+  expected_output: "A structured learning plan with topics, exercises, and timeline"
+
+adapt_learning_approach:
+  description: |
+    Adapt the learning plan based on feedback and progress:
+    1. Evaluate learning success
+    2. Identify adaptation needs
+    3. Suggest alternative teaching methods
+    4. Update schedule and exercises
+  agent: learning_coach
+  expected_output: "Recommendations for learning plan adaptations" 
